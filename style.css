@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    background-image: url(/background.png);
+    height: 700px;
+    background-position: left;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+}
+
+
+.logo-brand {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+.btn {
+    padding: 5px;
+    margin: 5px 8px 0 0;
+    text-transform: capitalize;
+    background-color: rgb(42, 42, 235);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.header-titles {
+    width: 29%;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+
+}
+
+.f-title {
+    text-transform: capitalize;
+    color: olivedrab;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.s-title {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+.btn2 {
+    background-color: rgb(42, 42, 235);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+}
+
+.about-lab {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px 0px;
+    background-color: rgb(250, 250, 250);
+}
+
+.about-lab img {
+    width: 300px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.lab-title {
+    width: 500px;
+}
+
+.lab-title h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: olivedrab;
+}
+
+.lab-title p {
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.read-btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px olivedrab solid;
+}
+
+.read-btn:hover {
+    background-color: olivedrab;
+    color: white;
+    transform: scale(1.1);
+}
+
+.services {
+    padding: 10px;
+    width: 100%;
+    height: 380px;
+    background-color: rgb(247, 229, 223, 0.4);
+    text-align: center;
+}
+
+.title1 h3 {
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.title1 h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: olivedrab;
+}
+
+.all-service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hair-cutting {
+    padding: 10px;
+    background-color: white;
+    width: 40%;
+    border-radius: 15px;
+
+
+}
+
+.hair-coloring {
+
+    padding: 10px;
+    margin-left: 5px;
+    background-color: white;
+    width: 40%;
+    border-radius: 15px;
+
+
+}
+
+.nail-service {
+
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    width: 40%;
+}
+
+
+.hair-cutting h5 {
+    color: olivedrab;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.hair-cutting p {
+    color: rgb(2, 1, 1);
+    font-weight: bold;
+}
+
+.hair-coloring h5 {
+    color: olivedrab;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.hair-coloring p {
+
+    color: black;
+    font-weight: bold;
+}
+
+.nail-service h5 {
+    color: olivedrab;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.nail-service p {
+    color: black;
+    font-weight: bold;
+}
+
+
+.review {
+    display: block;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.review h2 {
+    padding-top: 20px;
+    color: orange;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.review p {
+    display: inline-block;
+    color: white;
+    width: 450px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.author {
+    padding-top: 20px;
+    color: orange;
+    width: 100%;
+    text-align: center;
+}
+
+.author h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.img1{
+    border-radius: 50% ;
+    padding: 2px;
+}
+
+
+
+footer {
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(62, 37, 15);
+  font-size: 15px;
+}
+
+.social-media i {
+    padding: 3px;
+}
+
+.box input{
+    padding-left: 10px;
+    width: 200px;
+}
+
+.box button{
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 2px;
+    border: none;
+}
